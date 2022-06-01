@@ -1,0 +1,116 @@
+/**
+
+Single product
+
+**/
+
+$FontText: "ABeezee";
+$FontH1: "Pragati Narrow";
+$FontLettri: "Carattere";
+$colorWhite: #fafafa;
+$colorGold: #fbcc8e;
+$LogoWidth: 365px;
+$logoHeight: 200px;
+
+
+.single_container {
+    width:100%;
+    background-image: url("assets/linebackground_flip.svg");
+    background-size: 101%;
+    background-repeat: no-repeat;
+    & .back {
+        display: block;
+        padding : 5px;
+        position: absolute;
+        right:5px;
+        bottom:5px;
+        color:$colorGold;
+        text-decoration: none;
+
+    }
+  
+}
+.product_content {
+    display: flex;
+    box-shadow: 4px 7px 28px #27427c;
+    margin: auto;
+    padding: 20px;
+    border-radius: 10px;
+    color: $colorWhite;
+    gap: 10px;
+    width: 50%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1075px;
+    align-content: center;
+    margin-bottom: 50px;
+    background-color: #5474b7;
+    position:relative;
+
+  
+
+
+    & .image {
+        box-shadow: 4px 7px 28px #27427c;
+        border-radius: 10px;
+        width: 45%;
+        min-width: 250px;
+        max-width: 400px;
+        background:linear-gradient(189deg, rgba(251, 204, 142, 1) 52%, rgba(84, 115, 183, 0) 52%);   
+        & img {
+            width:100%;
+        }
+
+    }
+
+    & .product_text {
+        min-width: 250px;
+        width: 45%;
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+        justify-content: space-between;
+    
+      
+
+        & h5 {
+            margin-top: 0;
+        }
+
+        & h4 {
+            font-size: 1.2em;
+            margin: 5px auto 5px;
+            color: #fbcc8e;
+        }
+
+        & p {
+            font-family: $FontText;
+            font-size: 0.9em;
+            margin: 0 !important;
+        }
+
+        & .price-single {
+            font-size: 1.5em;
+            background: #fbcc8e;
+            padding: 5px 10px;
+            align-self: center;
+            border-radius: 5px;
+            color: #5474b7;
+            margin-top: 10px !important;
+        }
+    }
+}
+
+@media screen and (max-width: 1076px) {
+    .product_content {
+        flex-direction: column;
+        width: 90%;
+    .image {
+        width:100%;
+    }
+
+        & .product_text {
+            width: 100%;
+        }
+    }
+}

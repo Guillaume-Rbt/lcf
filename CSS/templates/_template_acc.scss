@@ -1,0 +1,63 @@
+;$FontText : "ABeezee";
+$FontH1 : "Pragati Narrow" ; 
+$FontLettri : "Carattere";
+
+$colorWhite : #fafafa;
+$colorGold : #FBCC8E;
+$LogoWidth : 365px ;
+$logoHeight: 200px;
+
+
+/**
+
+
+Accueil
+
+
+**/
+
+.content_acc {
+    position: relative;
+    width:100%;
+    height:calc(100vh - 180px);
+    & .txt {
+        width:30%;
+        margin-left:15%;
+    
+        & p {
+            color: $colorWhite !important;
+            font-family: $FontText;
+
+            & .iconify {
+                display:inline-block;
+            }
+        }
+
+        & h2 {
+            text-align: left;
+            color:$colorGold;
+            
+        }
+    }
+}
+
+.slider {
+    position: absolute;
+    bottom:0;
+    right:70px;
+    width:47%; 
+}
+
+.thumbnailAcc {
+    position:absolute;
+    bottom:0px;
+    width: 100%;
+    opacity: 0;
+    transition: opacity 1s ease;
+}
+
+.thumbnailAcc.fade {
+    opacity : 1 ;
+    transition: opacity 1s ease;
+}
+

@@ -1,0 +1,237 @@
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Comforter&family=Lato:wght@100&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Comforter&family=Lato:wght@100&family=Pragati+Narrow&display=swap");
+
+$FontText: "ABeezee";
+$FontH1: "Pragati Narrow";
+
+$colorWhite: #fafafa;
+$colorGold: #fbcc8e;
+
+/**
+
+
+Prestations
+
+
+**/
+
+.fonctionnement {
+    margin: 100px auto 30px;
+}
+
+.fonctionnement_container {
+    width: 100%;
+    padding: 100px 10px 100px 10px;
+    margin: 0px 0 0px 0;
+    display: flex;
+    justify-content: space-evenly;
+    align-content: flex-start;
+    flex-wrap: wrap;
+    gap: 15px;
+    color: #f1f1f1;
+    background-image: url("assets/linebackground_flip.png");
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+
+    @media screen and (max-width: 1145px) {
+        background-image: none;
+    }
+
+    & li {
+        width: 270px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: flex-start;
+        padding: 15px;
+        margin: 0;
+        border-radius: 10px;
+        background-color: #5474b7;
+        box-shadow: 4px 7px 28px #27427c;
+
+        .card-header {
+            width: 100%;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+
+        & h3 {
+            margin: 15px auto 15px;
+            font-size: 25px;
+        }
+
+        & p {
+            text-align: center;
+            justify-self: center;
+            font-family: $FontText;
+        }
+
+        & .iconify {
+            margin-bottom: 15px;
+            width: 25px;
+            height: 25px;
+            color: #f1f1f1;
+        }
+    }
+}
+
+
+.container_prestation {
+    width:100%;
+ background-image:radial-gradient(circle at 9% 69%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 14% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 78% 30%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 95% 90%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 38% 74%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 66% 53%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 81% 67%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 32% 0%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 38% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 42% 65%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 71% 86%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 91% 26%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 76% 89%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 100% 6%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 45% 96%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 81% 62%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 53% 28%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 62% 88%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 45% 56%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 36% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 49% 36%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), linear-gradient(45deg, #2a4187 5%, #2a4187 95%);
+padding: 100px 0;
+margin-bottom:100px;
+
+
+}
+
+
+h2.prestations {
+    margin: 0rem auto 30px !important;
+}
+
+.content_prest {
+    display: flex;
+    align-items: flex-start;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-evenly;
+    position: relative;
+
+    & .illustration_ciseaux {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 12%;
+        top: -326px;
+        transform: rotate(120deg);
+        opacity: 1;
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+
+        @media screen and (max-width: 1000px) {
+            width: 100px;
+            height: 100px;
+        }
+
+        @media screen and (max-width: 580px) {
+            display: none;
+        }
+    }
+}
+
+.svg1 {
+    width: 45%;
+
+    position: absolute;
+    left: 0px;
+    bottom: 0px;
+}
+
+.prest_wrapper {
+    width: 40%;
+    min-width: 300px;
+    
+
+
+    & .info {
+        width: 100%;
+        margin-top: 4em;
+        padding: 0 10px;
+
+        & p {
+            color: $colorWhite;
+            text-align: center;
+            font-family: $FontText;
+        }
+
+        & p:nth-child(2) {
+            font-weight: bold;
+            font-style: italic;
+        }
+    }
+}
+
+.prest_grid {
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+    gap: 0px;
+    width: 100%;
+
+
+    & .title_prest {
+        grid-column: 1/3;
+        border-bottom: 1px dotted $colorWhite;
+        padding: 3px;
+
+        & p {
+            text-align: left;
+            margin: 0;
+            font-size: 1em;
+            font-family: $FontText, sans-serif;
+            border-bottom: none;
+        }
+
+        & p:nth-child(2) {
+            font-style: italic;
+            font-size: 0.7em;
+            border-bottom: none;
+        }
+    }
+
+    & p {
+        text-align: center;
+        color: $colorWhite;
+        font-size: 1em;
+        border-bottom: 1px dotted $colorWhite;
+        margin: 0;
+        padding: 3px;
+    }
+}
+
+.long {
+    color: $colorGold !important;
+}
+
+.info {
+    width: 100%;
+    margin-top: 4em;
+
+    & p {
+        color: $colorWhite;
+        text-align: center;
+        font-family: $FontText;
+    }
+
+    & .paiement {
+        font-size: 0.8em;
+    }
+}
+
+.imgContPrest {
+    position: relative;
+    width: max-content;
+    height: max-content;
+    transform: rotate(-10deg);
+    margin: 80px auto;
+
+    &::before {
+        content: "";
+        border: 3px solid $colorGold;
+        border-radius: 10px;
+        position: absolute;
+        width: 100%;
+        height: 100%;
+        top: -15px;
+        left: -15px;
+        z-index: -3;
+    }
+
+    & img {
+        width: 300px;
+    }
+}

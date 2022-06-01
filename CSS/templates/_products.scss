@@ -1,0 +1,77 @@
+/**
+
+Products
+
+**/
+
+
+$FontText : "ABeezee";
+$FontH1 : "Pragati Narrow" ; 
+$FontLettri : "Carattere";
+$colorWhite : #fafafa;
+$colorGold : #FBCC8E;
+$LogoWidth : 365px ;
+$logoHeight: 200px;
+
+.product-wrapper {
+    font-family: $FontText;
+    width:100%;
+    padding: 0 10px 0 10px;
+    display:flex;
+    gap:10px;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin : 30px auto 30px;
+}
+
+.card-product {
+    box-shadow: 4px 7px 28px #27427c ;
+    background:linear-gradient(189deg, rgba(251, 204, 142, 1) 52%, rgba(84, 116, 183, 1) 53%);    
+    width:250px;
+    border-radius: 10px;
+    padding : 10px;
+    color: $colorWhite;
+    position: relative;
+    margin-bottom: 20px;
+    & .imgProduct {
+        border-radius: 5px;
+        margin:auto;
+        height:230px;
+        position:relative;
+        top:0
+    }
+
+    & .price {
+        margin: 10px auto 0 !important;
+        font-family: $FontText;
+    }
+
+    & .ref {
+        margin : 0 auto 10px !important;
+        font-size: 0.8em;
+    }
+
+    & a {
+        display: block;
+        width:90%;
+        color:#405888;
+        background-color: $colorGold ;
+        text-align: center;
+        padding: 5px;
+        text-decoration: none;
+        border-radius: 16px;
+        position: absolute;
+        bottom:-16px;
+        left:5%;
+    }
+}
+
+.fonctionnement_boutique{
+    padding:50px;
+    color:$colorWhite;
+
+    & p {
+        text-align: center;
+    }
+
+}

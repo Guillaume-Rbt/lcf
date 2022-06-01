@@ -1,0 +1,180 @@
+
+/**
+
+
+Responsive
+
+
+**/
+
+
+$colorWhite : #fafafa;
+$colorGold : #FBCC8E;
+
+@media screen and (max-width:1557px) {
+    .wpcf7 {
+        & input {
+            width:calc(50vw - 10px) !important;
+
+
+        }
+
+    }
+}
+
+
+
+
+@media screen and (max-width:1000px) {
+    .prest_wrapper {
+        width:100%;
+        padding : 0 10px 0 10px;
+    }
+
+    .content_prest {
+        padding:3px;
+
+    }
+
+    .content_acc {
+        height:auto;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap:30px;
+    
+        & .txt {
+            margin-left:10px;
+            margin-right:10px;
+            width:calc(100% - 20px);
+
+            &  h2 {
+                text-align: center;
+            }
+
+            & p {
+                text-align: center;
+            }
+        }
+
+    
+        }
+
+        .slider {
+            width:270px;
+
+           right: auto;
+            }
+    
+
+    .prest_grid {
+
+        gap:0px;
+
+        & .title_prest {
+            border-bottom:1px dotted $colorWhite;
+        }
+        
+        & p {
+            border-bottom:1px dotted $colorWhite;
+            margin: 0;
+        }
+    }
+
+  
+
+    .menu-modal-inner {
+        background-color: #5474B7 !important;
+
+        & .header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
+            color: $colorWhite;
+        }
+    }
+
+    .header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
+        color: #fff !important;
+      }
+
+    .search-toggle .toggle-icon, .search-toggle svg {
+        display: none;
+    }
+
+    .header-inner .toggle svg {
+        color: #fafafa;
+    }
+
+    .site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
+        display:none;
+    }
+
+    .menu-modal-inner {
+        overflow: hidden;
+    }
+
+    .content_pres {
+        flex-direction: column;
+        gap:20px;
+        justify-content: space-between;
+        align-items: center;
+
+        & .pres_txt {
+            width:100%;
+
+        }
+
+        & p {
+            width:100%;
+        }
+    }
+}
+
+@media screen and (max-width:630px) {
+    .slider {
+        width:210px !important;
+}
+
+h2.prestations {
+    margin:-3rem auto 30px !important;
+}
+}
+
+@media screen and (max-width:390px) {
+    header.header-footer-group {
+
+        &::before {
+            width: calc(100% - 100px);
+        }
+
+        .click {
+            width: calc(100% - 100px);
+        }
+    }
+
+    .slider {
+        width:56% !important;
+    }
+
+    
+
+    .wpcf7 {
+        width:100vw !important;
+        & form {
+            width:90vw;
+        } 
+        & input {
+            width:90vw !important;
+        }
+        & textarea {
+            width:90vw !important;
+        }
+    }
+
+    .content_pres .imgCont .photo_pres {
+        width:265px;
+    }
+
+    .imgContPrest img {
+        width:240px;
+    }
+}
+

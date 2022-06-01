@@ -1,0 +1,177 @@
+/**
+
+Contact
+
+
+**/
+
+$FontText: "ABeezee";
+$FontH1: "Pragati Narrow";
+$FontLettri: "Carattere";
+$colorWhite: #fafafa;
+$colorGold: #fbcc8e;
+
+.instr {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: relative;
+    padding: 0 10px;
+
+    & .illustration_sèche {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        left: 5%;
+        top: -200px;
+        transform: rotate(45deg);
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+        @media screen and (max-width: 1000px) {
+            width: 100px;
+            height: 100px;
+        }
+
+        @media screen and (max-width: 580px) {
+            display: none;
+        }
+    }
+
+    & .illustration_tondeuse {
+        width: 200px;
+        height: 200px;
+        position: absolute;
+        right: 5%;
+        top: -100px;
+        transform: rotate(180deg);
+
+        & img {
+            width: 100%;
+            height: 100%;
+        }
+        @media screen and (max-width: 1000px) {
+            width: 100px;
+            height: 100px;
+        }
+
+        @media screen and (max-width: 580px) {
+            display: none;
+        }
+    }
+
+    & p {
+        color: $colorWhite;
+        font-family: $FontText;
+        text-align: center;
+
+        & a {
+            color: #5474b7;
+            background: #fbcc8e;
+            padding: 5px 15px;
+            border-radius: 56px;
+            text-decoration: none;
+            margin: 0 5px;
+            font-weight: bold;
+        }
+    }
+
+    & .fieldInstr {
+        font-size: 0.8em;
+    }
+}
+
+.wpcf7 {
+    margin-top: 50px;
+
+    & > form {
+        padding: 0;
+        width: 50%;
+        margin: 0 auto 50px !important;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: space-between;
+        gap: 10px;
+
+        & input,
+        textarea {
+            background-color: transparent;
+            height: 30px;
+            width: 380px;
+            outline: none;
+            border-radius: 10px;
+            border-width: 2px;
+            transition: all 0.3s linear;
+            color: $colorWhite;
+            font-family: $FontText;
+
+            &::placeholder {
+                color: #fafafa !important;
+                font-family: $FontText;
+            }
+
+            &:focus {
+                border-color: $colorGold;
+            }
+        }
+
+        & textarea {
+            width: calc(50vw - 10px);
+            height: 200px;
+            resize: none;
+        }
+        & input[type="submit"] {
+            color: #405888;
+            background-color: #fbcc8e;
+            border-radius: 10px;
+            padding: 0 !important;
+            width: calc(50vw - 10px);
+
+            &:hover {
+                text-decoration: none;
+            }
+        }
+
+        & label {
+            font-family: $FontText;
+            margin: 0;
+        }
+
+        & .wpcf7-spinner {
+            display: none;
+        }
+    }
+
+    & > form > p {
+        width: max-content;
+        margin-left: 0px;
+        margin-bottom: 0px;
+        color: $colorWhite;
+        font-family: $FontH1;
+    }
+}
+
+.network {
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+
+    & h3 {
+        width: 100%;
+    }
+
+    & .icon-network {
+        width: 50px;
+        height: 50px;
+    }
+}
+
+.wpcf7 form .wpcf7-response-output {
+    border: none;
+    margin: 10px;
+    color: $colorWhite;
+}
