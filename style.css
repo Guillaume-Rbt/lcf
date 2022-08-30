@@ -752,7 +752,7 @@ Single product
   display: flex;
   box-shadow: 4px 7px 28px #27427c;
   margin: auto;
-  padding: 20px;
+  padding: 20px 20px 35px;
   border-radius: 10px;
   color: #fafafa;
   gap: 10px;
@@ -760,7 +760,7 @@ Single product
   justify-content: space-between;
   flex-wrap: wrap;
   max-width: 1075px;
-  align-content: center;
+  align-items: center;
   margin-bottom: 50px;
   background-color: #5474b7;
   position: relative;
@@ -841,11 +841,9 @@ Responsive
     width: 100%;
     padding: 0 10px 0 10px;
   }
-
   .content_prest {
     padding: 3px;
   }
-
   .content_acc {
     height: auto;
     display: flex;
@@ -864,12 +862,10 @@ Responsive
   .content_acc .txt p {
     text-align: center;
   }
-
   .slider {
     width: 270px;
     right: auto;
   }
-
   .prest_grid {
     gap: 0px;
   }
@@ -880,34 +876,27 @@ Responsive
     border-bottom: 1px dotted #fafafa;
     margin: 0;
   }
-
   .menu-modal-inner {
     background-color: #5474B7 !important;
   }
   .menu-modal-inner .header-footer-group, .menu-modal-inner body:not(.overlay-header) #site-header .toggle, .menu-modal-inner .menu-modal .toggle {
     color: #fafafa;
   }
-
   .header-footer-group, body:not(.overlay-header) #site-header .toggle, .menu-modal .toggle {
     color: #fff !important;
   }
-
   .search-toggle .toggle-icon, .search-toggle svg {
     display: none;
   }
-
   .header-inner .toggle svg {
     color: #fafafa;
   }
-
   .site-description, body:not(.overlay-header) .toggle-inner .toggle-text, .widget .post-date, .widget .rss-date, .widget_archive li, .widget_categories li, .widget cite, .widget_pages li, .widget_meta li, .widget_nav_menu li, .powered-by-wordpress, .to-the-top, .singular .entry-header .post-meta, .singular:not(.overlay-header) .entry-header .post-meta a {
     display: none;
   }
-
   .menu-modal-inner {
     overflow: hidden;
   }
-
   .content_pres {
     flex-direction: column;
     gap: 20px;
@@ -925,7 +914,6 @@ Responsive
   .slider {
     width: 210px !important;
   }
-
   h2.prestations {
     margin: -3rem auto 30px !important;
   }
@@ -937,11 +925,9 @@ Responsive
   header.header-footer-group .click {
     width: calc(100% - 100px);
   }
-
   .slider {
     width: 56% !important;
   }
-
   .wpcf7 {
     width: 100vw !important;
   }
@@ -954,11 +940,9 @@ Responsive
   .wpcf7 textarea {
     width: 90vw !important;
   }
-
   .content_pres .imgCont .photo_pres {
     width: 265px;
   }
-
   .imgContPrest img {
     width: 240px;
   }

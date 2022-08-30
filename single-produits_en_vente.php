@@ -22,7 +22,7 @@ if($term_link[0]->parent!=0) {
             <h5><?= the_title() ?></h5>
 
             <h4>Description :</h4>
-            <p><?= get_post_meta(get_the_ID(), "description", true); ?></p>
+            <?= get_the_content() ?>
 
             <?php if (get_post_meta(get_the_ID(), "ingredients", true) != "") : ?>
                 <h4>Ingrédients : </h4>
