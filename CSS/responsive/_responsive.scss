@@ -27,7 +27,6 @@ $colorGold : #FBCC8E;
 
 @media screen and (max-width:1000px) {
     .prest_wrapper {
-        width:100%;
         padding : 0 10px 0 10px;
     }
 
@@ -67,19 +66,6 @@ $colorGold : #FBCC8E;
             }
     
 
-    .prest_grid {
-
-        gap:0px;
-
-        & .title_prest {
-            border-bottom:1px dotted $colorWhite;
-        }
-        
-        & p {
-            border-bottom:1px dotted $colorWhite;
-            margin: 0;
-        }
-    }
 
   
 
@@ -137,6 +123,13 @@ h2.prestations {
     margin:-3rem auto 30px !important;
 }
 }
+
+@media screen and (max-width:850px) {
+    .prest_wrapper{
+        & h2 {
+        text-align: center !important;
+    }
+}}
 
 @media screen and (max-width:390px) {
     header.header-footer-group {

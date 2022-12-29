@@ -17,14 +17,15 @@ GENERALS
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Comforter&family=Lato:wght@100&family=Pragati+Narrow&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee&family=Comforter&family=Lato:wght@100&display=swap");
 @import url("https://fonts.googleapis.com/css2?family=ABeeZee:ital@0;1&family=Comforter&family=Lato:wght@100&family=Pragati+Narrow&display=swap");
-html, body {
+html,
+body {
   overflow-x: hidden;
 }
 
 body {
-  background-image: radial-gradient(circle at 9% 69%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 14% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 78% 30%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 95% 90%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 38% 74%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 66% 53%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 81% 67%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 32% 0%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 38% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 42% 65%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 71% 86%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 91% 26%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 76% 89%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 100% 6%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 45% 96%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 81% 62%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 53% 28%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 62% 88%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 45% 56%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 36% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 49% 36%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), linear-gradient(45deg, #5474b7 5%, #5474b7 95%);
-  background-attachment: fixed;
+  background-image: radial-gradient(circle at 9% 69%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 14% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 78% 30%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 95% 90%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 3%, transparent 3%, transparent 100%), radial-gradient(circle at 38% 74%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 66% 53%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 81% 67%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 38% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 42% 65%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 71% 86%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 91% 26%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 76% 89%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 7%, transparent 7%, transparent 100%), radial-gradient(circle at 100% 6%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 45% 96%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 81% 62%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 53% 28%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 62% 88%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 45% 56%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 36% 61%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), radial-gradient(circle at 49% 36%, rgba(255, 255, 255, 0.03) 0%, rgba(255, 255, 255, 0.03) 5%, transparent 5%, transparent 100%), linear-gradient(45deg, #5474b7 5%, #5474b7 95%);
   background-size: 100vw calc(100vh + 200px);
+  background-repeat: repeat-y;
 }
 
 .click {
@@ -58,16 +59,14 @@ header[class=header-footer-group]::before {
 }
 
 footer {
-  background: transparent !important;
   color: #fafafa;
   font-family: "ABeezee";
-  margin: 50px 0 30px;
   font-size: 13px;
   display: flex;
   flex-direction: column;
   align-items: center;
   position: relative;
-  padding-top: 50px;
+  padding: 100px 0 50px;
   position: relative;
   z-index: 999;
 }
@@ -90,12 +89,13 @@ footer::before {
   width: 30%;
   height: 10px;
   position: absolute;
-  top: 0;
+  top: 50px;
   left: 35%;
   border-top: 3px solid #FBCC8E;
 }
 
-h2, h1 {
+h2,
+h1 {
   font-family: "Pragati Narrow" !important;
   color: #FBCC8E;
   font-size: 3em;
@@ -106,11 +106,13 @@ h2, h1 {
   padding: 0 10px;
 }
 @media screen and (max-width: 360px) {
-  h2, h1 {
+  h2,
+h1 {
     font-size: 2.4em;
   }
 }
-h2 .lettrine, h1 .lettrine {
+h2 .lettrine,
+h1 .lettrine {
   font-family: "Carattere";
   font-size: 1.8em;
 }
@@ -176,7 +178,8 @@ h5 .lettrine {
   text-decoration-thickness: 2px;
   transition: all 0.3s ease-in-out !important;
 }
-.customClassItem .icon::before, .customClassItem .icon::after {
+.customClassItem .icon::before,
+.customClassItem .icon::after {
   color: #fafafa !important;
 }
 
@@ -209,7 +212,7 @@ Prestations
   align-content: flex-start;
   flex-wrap: wrap;
   gap: 15px;
-  color: #f1f1f1;
+  color: #fafafa;
   background-image: url("assets/linebackground_flip.png");
   background-size: 100% 100%;
   background-repeat: no-repeat;
@@ -271,6 +274,7 @@ h2.prestations {
   width: 100%;
   justify-content: space-evenly;
   position: relative;
+  color: #fafafa;
 }
 .content_prest .illustration_ciseaux {
   width: 200px;
@@ -305,71 +309,37 @@ h2.prestations {
 }
 
 .prest_wrapper {
-  width: 40%;
+  width: -webkit-max-content;
+  width: -moz-max-content;
+  width: max-content;
   min-width: 300px;
-}
-.prest_wrapper .info {
-  width: 100%;
-  margin-top: 4em;
-  padding: 0 10px;
-}
-.prest_wrapper .info p {
   color: #fafafa;
-  text-align: center;
-  font-family: "ABeezee";
 }
-.prest_wrapper .info p:nth-child(2) {
-  font-weight: bold;
-  font-style: italic;
-}
-
-.prest_grid {
-  display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 0px;
-  width: 100%;
-}
-.prest_grid .title_prest {
-  grid-column: 1/3;
-  border-bottom: 1px dotted #fafafa;
-  padding: 3px;
-}
-.prest_grid .title_prest p {
+.prest_wrapper h2 {
   text-align: left;
-  margin: 0;
-  font-size: 1em;
-  font-family: "ABeezee", sans-serif;
-  border-bottom: none;
 }
-.prest_grid .title_prest p:nth-child(2) {
-  font-style: italic;
-  font-size: 0.7em;
-  border-bottom: none;
-}
-.prest_grid p {
-  text-align: center;
-  color: #fafafa;
-  font-size: 1em;
-  border-bottom: 1px dotted #fafafa;
-  margin: 0;
-  padding: 3px;
-}
-
-.long {
-  color: #fbcc8e !important;
+.prest_wrapper p span {
+  display: inline-block;
 }
 
 .info {
-  width: 100%;
-  margin-top: 4em;
+  width: 80%;
+  min-width: 300px;
+  margin: 4em auto;
+  padding: 0 10px;
 }
 .info p {
   color: #fafafa;
   text-align: center;
   font-family: "ABeezee";
 }
-.info .paiement {
-  font-size: 0.8em;
+.info p:nth-child(2) {
+  font-weight: bold;
+  font-style: italic;
+}
+
+.long {
+  color: #fbcc8e !important;
 }
 
 .imgContPrest {
@@ -838,7 +808,6 @@ Responsive
 }
 @media screen and (max-width: 1000px) {
   .prest_wrapper {
-    width: 100%;
     padding: 0 10px 0 10px;
   }
   .content_prest {
@@ -865,16 +834,6 @@ Responsive
   .slider {
     width: 270px;
     right: auto;
-  }
-  .prest_grid {
-    gap: 0px;
-  }
-  .prest_grid .title_prest {
-    border-bottom: 1px dotted #fafafa;
-  }
-  .prest_grid p {
-    border-bottom: 1px dotted #fafafa;
-    margin: 0;
   }
   .menu-modal-inner {
     background-color: #5474B7 !important;
@@ -916,6 +875,11 @@ Responsive
   }
   h2.prestations {
     margin: -3rem auto 30px !important;
+  }
+}
+@media screen and (max-width: 850px) {
+  .prest_wrapper h2 {
+    text-align: center !important;
   }
 }
 @media screen and (max-width: 390px) {

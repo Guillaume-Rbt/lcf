@@ -28,7 +28,7 @@ Prestations
     align-content: flex-start;
     flex-wrap: wrap;
     gap: 15px;
-    color: #f1f1f1;
+    color: $colorWhite;
     background-image: url("assets/linebackground_flip.png");
     background-size: 100% 100%;
     background-repeat: no-repeat;
@@ -98,6 +98,7 @@ h2.prestations {
     width: 100%;
     justify-content: space-evenly;
     position: relative;
+    color:$colorWhite;
 
     & .illustration_ciseaux {
         width: 200px;
@@ -133,14 +134,24 @@ h2.prestations {
 }
 
 .prest_wrapper {
-    width: 40%;
+    width: max-content;
     min-width: 300px;
+    color: $colorWhite;
+
+    & h2 {
+        text-align: left;
+    }
+
+    & p span {
+        display: inline-block;
+    }
     
+}
 
-
-    & .info {
-        width: 100%;
-        margin-top: 4em;
+ .info {
+        width: 80%;
+        min-width: 300px;
+        margin: 4em auto;
         padding: 0 10px;
 
         & p {
@@ -154,63 +165,14 @@ h2.prestations {
             font-style: italic;
         }
     }
-}
-
-.prest_grid {
-    display: grid;
-    grid-template-columns: repeat(5, 1fr);
-    gap: 0px;
-    width: 100%;
 
 
-    & .title_prest {
-        grid-column: 1/3;
-        border-bottom: 1px dotted $colorWhite;
-        padding: 3px;
-
-        & p {
-            text-align: left;
-            margin: 0;
-            font-size: 1em;
-            font-family: $FontText, sans-serif;
-            border-bottom: none;
-        }
-
-        & p:nth-child(2) {
-            font-style: italic;
-            font-size: 0.7em;
-            border-bottom: none;
-        }
-    }
-
-    & p {
-        text-align: center;
-        color: $colorWhite;
-        font-size: 1em;
-        border-bottom: 1px dotted $colorWhite;
-        margin: 0;
-        padding: 3px;
-    }
-}
 
 .long {
     color: $colorGold !important;
 }
 
-.info {
-    width: 100%;
-    margin-top: 4em;
 
-    & p {
-        color: $colorWhite;
-        text-align: center;
-        font-family: $FontText;
-    }
-
-    & .paiement {
-        font-size: 0.8em;
-    }
-}
 
 .imgContPrest {
     position: relative;
